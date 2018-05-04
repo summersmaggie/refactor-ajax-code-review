@@ -16,7 +16,7 @@ _A website created using Ruby on Rails that displays products from Mario's Whole
   _Ensure that users can't order a negative number of items._
   _Add product validations._
   _Add flash messages for signing up, signing in and signing out._
-
+  _Add product update and delete functionality for admins._
 
 ## Installation
 

@@ -1,2 +1,3 @@
 $('#product_description_<%= @product.id %>').html("<p><%= @product.description %></p>").toggle();
 $('#product_image_<%= @product.id %>').html("<p><%= @product.image %></p>").toggle();
+$('#edit_product_<%= @product.id %>').html('<%= j render("edit_buttons") %>')
