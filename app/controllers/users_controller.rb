@@ -11,7 +11,7 @@ class UsersController < ApplicationController
       session[:user_id] = user.id
       redirect_to '/'
     else
-      flash[:alert] = "Sorry, your password must be at least between 6 and 40 characters long."
+      flash[:alert] = "Sorry, there was an error. Please try again."
       redirect_to sign_up_path
     end
   end
