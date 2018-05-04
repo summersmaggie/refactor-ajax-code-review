@@ -14,7 +14,8 @@ _A website created using Ruby on Rails that displays products from Mario's Whole
 
   * Refactoring
   _Ensure that users can't order a negative number of items._
-  
+  _Add product validations._
+
 
 
 ## Installation
