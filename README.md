@@ -4,22 +4,24 @@
 
 ## Description
 
-_A website created using Ruby on Rails that displays products from Mario's Whole Foods, as well as reviews associated with those products._
+_This repo was cloned down from Epicodus Lessons and given a facelift via AJAX functionality and refactoring to make a more seamless web experience._
 
 ##  Specifications
-  * AJAX Functionality
-  _Users should be able to add products to their shopping cart from the index page with AJAX. The item should be added to the shopping cart and the number of items in the cart (shown in the navbar) should update._
-  _Users should be able to click on a product and show/hide the product detail using AJAX. The product detail should include an image (either Paperclip or an image link), the description, and any other fields you choose to add._
-  _Users should be able to remove items from the shopping cart without a page reload. The "delete" link should result in the item being removed from the shopping cart and the total price being updated._
+  * AJAX Objectives
 
-  * Refactoring
-  _Ensure that users can't order a negative number of items._
-  _Add product validations._
-  _Add flash messages for signing up, signing in and signing out._
-  _Add product update and delete functionality for admins._
-  _Add admin flash messages for adding, updating and deleting products._
-  _Add password validations to ensure a user's password is sufficiently complex._
+    * Users should be able to add products to their shopping cart from the index page with AJAX. The item should be added to the shopping cart and the number of items in the cart (shown in the navbar) should update.
+    * Users should be able to click on a product and show/hide the product detail using AJAX. The product detail should include an image (either Paperclip or an image link), the description, and any other fields you choose to add.
+    * Users should be able to remove items from the shopping cart without a page reload. The "delete" link should result in the item being removed from the shopping cart and the total price being updated.
 
+
+  * Refactoring Objectives   
+
+    * Ensure that users can't order a negative number of items.
+    * Add product validations.
+    * Add flash messages for signing up, signing in and signing out.
+    * Add product update and delete functionality for admins.
+    * Add admin flash messages for adding, updating and deleting products.
+    * Add password validations to ensure a user's password is sufficiently complex.
 
 ## Installation
 
