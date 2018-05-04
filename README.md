@@ -18,6 +18,7 @@ _A website created using Ruby on Rails that displays products from Mario's Whole
   _Add flash messages for signing up, signing in and signing out._
   _Add product update and delete functionality for admins._
   _Add admin flash messages for adding, updating and deleting products._
+  _Add password validations to ensure a user's password is sufficiently complex._
 
 
 ## Installation

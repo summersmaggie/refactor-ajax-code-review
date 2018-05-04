@@ -1,7 +1,7 @@
 class UsersController < ApplicationController
 
   def new
-
+    @user = User.new
   end
 
   def create
@@ -11,8 +11,8 @@ class UsersController < ApplicationController
       session[:user_id] = user.id
       redirect_to '/'
     else
-      flash[:alert] = "Sorry, there was a problem. Please try again."
-      redirect_to '/signup'
+      flash[:alert] = "Sorry, your password must be at least between 6 and 40 characters long."
+      redirect_to sign_up_path
     end
   end
 
