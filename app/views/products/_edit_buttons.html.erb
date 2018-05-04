@@ -1,8 +1,6 @@
-<% if current_user && current_user.admin %>
-  <p><%= @product.description %></p>
-  <p><%= @product.image %></p>
-  <p><%= link_to "EDIT PRODUCT", edit_product_path(@product) %></p>
-  <p><%= link_to "DELETE PRODUCT", product_path,
-                                  :data => {:confirm => "You sure?",
-                                  :method => "delete"} %></p>
-<% end %>
+<p><%= @product.description %></p>
+<p><%= @product.image %></p>
+<p><%= link_to "EDIT PRODUCT", edit_product_path(@product) %></p>
+<p><%= link_to "DELETE PRODUCT", product_path,
+                                :data => {:confirm => "You sure?",
+                                :method => "delete"} %></p>

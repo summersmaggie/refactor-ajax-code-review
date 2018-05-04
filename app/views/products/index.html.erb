@@ -9,8 +9,12 @@
       </div>
       <div id="product_image_<%= product.id %>">
       </div>
-      <div id="edit_product_<%= product.id %>">
-      </div>
+
+      <% if current_user && current_user.admin %>
+        <div id="edit_product_<%= product.id %>">
+        </div>
+      <% end %>
+
       <p><%= number_to_currency product.price %></p>
 
       <%= form_for @order_item do |f| %>
